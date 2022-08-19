@@ -4,3 +4,20 @@ Titus Winters, Software Engineering at Google
 
 
 Engenharia de Software é a área da tecnologia em que é estudado todos os processos da construção de um software, desde o projeto de elaboração até a sua manutenção. Com base no que o cliente quer, o software poderá ter melhor desempenho, segurança, escalabilidade entre outros requitos não funcionais. Além do levantamento de requisitos (ações) que o cliente necessita, o qual nomeamos requesitos funcionais. Depois de todo o processo de construção e constante melhoria do software, ele poderá e deve sofrer alterações de erros e manutenção para que o sistema não se torne obsoleto.
+
+# Ciclo de Vida de um Software
+
+Exemplo: Pizzaria
+
+Requesitos Funcionais
+
+- Funcionário pode adcionar, alterar, excluir e mostrar os sabores de pizza
+- Funcionário pode criar estoque de alimentos
+- Cliente pode se cadastrar no aplicativo, campos ID, Nome, Endereço, data de nascimento 
+
+Requisitos Não Funcionais
+
+- Desempenho
+- Usabilidade
+- Segurança
+
