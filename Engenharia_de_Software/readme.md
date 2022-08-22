@@ -11,7 +11,7 @@ Exemplo: Pizzaria
 
 Requesitos Funcionais
 
-- Funcionário pode adcionar, alterar, excluir e mostrar os sabores de pizza (Cardápio), pode ser visto tanto pelo Usuário quanto para o Funcionário;
+- Funcionário pode adcionar, excluir e mostrar os sabores de pizza (Cardápio), pode ser visto tanto pelo Usuário quanto para o Funcionário;
 - Funcionário pode criar estoque de alimentos;
 - Cliente pode se cadastrar e fazer login no aplicativo, campos: ID, Nome, Endereço, Data de Nascimento;
 - Compra de pizzas pelo Cliente;
