@@ -15,11 +15,12 @@ Requesitos Funcionais
 - Funcionário pode criar estoque de alimentos;
 - Cliente pode se cadastrar e fazer login no aplicativo, campos: ID, Nome, Endereço, Data de Nascimento;
 - Compra de pizzas pelo Cliente;
--  
+- Planilha de pedidos para o Funcionário. 
 
 Requisitos Não Funcionais
 
 - Desempenho
 - Usabilidade
 - Segurança
+- 
 
