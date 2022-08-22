@@ -19,8 +19,8 @@ Requesitos Funcionais
 
 Requisitos Não Funcionais
 
-- Desempenho
-- Usabilidade
-- Segurança
-- 
+- Desempenho -> Tempo de processamento do aplicativo;
+- Usabilidade -> Interface Gráfica limpa e de fácil uso;
+- Segurança -> Os dados coletados são criptografados para mais segurança;
+- Portabilidade -> O aplicativo poderá ser utilizado em diversos dispositivos móveis
 
