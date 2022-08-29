@@ -24,3 +24,4 @@ Requisitos Não Funcionais
 - Segurança -> Os dados coletados são criptografados para mais segurança;
 - Portabilidade -> O aplicativo poderá ser utilizado em diversos dispositivos móveis
 
+- Diagrama de Caso de Uso:
