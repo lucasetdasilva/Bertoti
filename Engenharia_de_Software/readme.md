@@ -7,9 +7,9 @@ Engenharia de Software é a área da tecnologia em que é estudado todos os proc
 
 # Ciclo de Vida de um Software
 
-Exemplo: Pizzaria
+### Exemplo: Pizzaria
 
-Requesitos Funcionais
+## Requesitos Funcionais
 
 - Funcionário pode adcionar, excluir e mostrar os sabores de pizza (Cardápio), pode ser visto tanto pelo Usuário quanto para o Funcionário;
 - Funcionário pode criar estoque de alimentos;
@@ -17,7 +17,7 @@ Requesitos Funcionais
 - Compra de pizzas pelo Cliente;
 - Planilha de pedidos para o Funcionário. 
 
-Requisitos Não Funcionais
+## Requisitos Não Funcionais
 
 - Desempenho -> Tempo de processamento do aplicativo;
 - Usabilidade -> Interface Gráfica limpa e de fácil uso;
