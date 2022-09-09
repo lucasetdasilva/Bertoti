@@ -26,3 +26,6 @@ Engenharia de Software é a área da tecnologia em que é estudado todos os proc
 
 - Diagrama de Caso de Uso:
 ![Screenshot](uml.png)</br>
+
+- Diagrama de Classe:
+![Screenshot](pizzaria.png)</br>
