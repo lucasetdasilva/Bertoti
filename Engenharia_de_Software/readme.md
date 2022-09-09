@@ -24,8 +24,10 @@ Engenharia de Software é a área da tecnologia em que é estudado todos os proc
 - Segurança -> Os dados coletados são criptografados para mais segurança;
 - Portabilidade -> O aplicativo poderá ser utilizado em diversos dispositivos móveis
 
-- Diagrama de Caso de Uso:
+<br><br>
+## Diagrama de Caso de Uso:
 ![Screenshot](uml.png)</br>
 
-- Diagrama de Classe:
+<br><br>
+## Diagrama de Classe:
 ![Screenshot](pizzaria.png)</br>
