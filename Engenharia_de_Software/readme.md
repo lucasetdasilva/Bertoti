@@ -23,4 +23,4 @@
 
 <br><br>
 ## Diagrama de Classe:
-![Screenshot](pizzaria.png)</br>
+![Screenshot](Classe.png)</br>
