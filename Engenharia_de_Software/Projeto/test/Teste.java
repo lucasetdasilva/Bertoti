@@ -1,13 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
+
 
 import DTO.Cliente;
+import DTO.Pizzaria;
 import DTO.Funcionario;
 import DTO.Pedido;
 import DTO.Pizza;
-import DTO.Pizzaria;
+import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -48,13 +46,14 @@ public class Teste {
         
         Cliente cli = new Cliente("Daiana","154.099.765-32","Rua V","18-07-1983");
         
-        pizzaria.BuscarCliente("Daiana");
-        
         cli.Cadastro(cli); 
+        
+        List<Cliente> cliente = (List<Cliente>) pizzaria.BuscarCliente("Daiana");
+        
+        assertEquals(cliente.get(0), "Daiana");
         
         Pizza p = new Pizza();
         
-        p.BuscarPizza("Gorgonzola");
         p.ExcluirPizza("Mussarela");
         p.MostrarPizzas();
         
