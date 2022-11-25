@@ -5,7 +5,7 @@
 ## Requesitos Funcionais
 
 - Funcionário pode adicionar, excluir e mostrar os sabores de pizza (Cardápio), pode ser visto tanto pelo Cliente quanto para o Funcionário;
-- Cliente pode se cadastrar, enquanto a pizzaria pode procurar por no, campos: ID, Nome, Endereço, Data de Nascimento;
+- Cliente pode se cadastrar, enquanto a pizzaria pode procurálo pelo seu nome;
 - Compra de pizzas pelo Cliente;
 - Planilha de pedidos para o Funcionário. 
 
