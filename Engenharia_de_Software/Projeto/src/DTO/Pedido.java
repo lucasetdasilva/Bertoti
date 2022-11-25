@@ -1,6 +1,6 @@
 package DTO;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -12,7 +12,7 @@ public class Pedido {
     private String datapedido;
     private String clientes;
     private int quantidadepizza;
-    private List<Pizza> pizzas = new ArrayList<>();
+    private List<Pizza> pizzas = new LinkedList<>();
 
     public Pedido(String datapedido, String clientes, int quantidadepizza) {
         this.datapedido = datapedido;

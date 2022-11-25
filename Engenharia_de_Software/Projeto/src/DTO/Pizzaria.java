@@ -1,7 +1,7 @@
 
 package DTO;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import javax.swing.JOptionPane;
 
@@ -12,10 +12,10 @@ import javax.swing.JOptionPane;
 public class Pizzaria {
 
     private int id;
-    private List<Pedido> pedidos = new ArrayList<>();
-    private List<Cliente> clientes = new ArrayList<>();
-    private List<Funcionario> funcionarios = new ArrayList<>();
-    private List<Pizza> pizzas = new ArrayList<>();
+    private List<Pedido> pedidos = new LinkedList<>();
+    private List<Cliente> clientes = new LinkedList<>();
+    private List<Funcionario> funcionarios = new LinkedList<>();
+    private List<Pizza> pizzas = new LinkedList<>();
 
     public int getId() {
         return id;

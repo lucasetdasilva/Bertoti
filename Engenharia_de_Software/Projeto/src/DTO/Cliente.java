@@ -4,9 +4,8 @@
  */
 package DTO;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -18,8 +17,8 @@ public class Cliente {
     private String cpf;
     private String endereco;
     private String datanascimento;
-    private List<Pedido> listapedidos = new ArrayList<>();
-    private List<Cliente> clientes = new ArrayList<>();
+    private List<Pedido> listapedidos = new LinkedList<>();
+    private List<Cliente> clientes = new LinkedList<>();
 
     public void Cadastro(Cliente c) {
         clientes.add(c);

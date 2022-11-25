@@ -1,6 +1,6 @@
 package DTO;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -12,7 +12,7 @@ public class Funcionario {
     private int id;
     private String nome;
     private String funcao;
-    private List<Funcionario> funcionarios = new ArrayList<>();
+    private List<Funcionario> funcionarios = new LinkedList<>();
 
     public Funcionario(int id, String nome, String funcao) {
         this.id = id;

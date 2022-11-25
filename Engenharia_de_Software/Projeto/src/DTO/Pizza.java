@@ -4,7 +4,7 @@
  */
 package DTO;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -17,7 +17,7 @@ public class Pizza {
     private String ingredientes;
     
     
-    private List<Pizza> pizzas = new ArrayList<>();
+    private List<Pizza> pizzas = new LinkedList<>();
 
     public void CadastrarPizzas(Pizza p) {
         pizzas.add(p);
