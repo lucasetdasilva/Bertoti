@@ -24,7 +24,3 @@
 ## Diagrama de Classe:
 ![Screenshot](aa.png)</br>
 
-<br><br><br>
-
-## Tela de Início:
-![Screenshot](home.png)</br>
