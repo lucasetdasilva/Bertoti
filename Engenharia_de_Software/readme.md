@@ -14,7 +14,7 @@
 - Desempenho -> Tempo de processamento do aplicativo;
 - Usabilidade -> Interface Gráfica limpa e de fácil uso;
 - Segurança -> Os dados coletados são criptografados para mais segurança;
-- Portabilidade -> O aplicativo poderá ser utilizado em diversos dispositivos móveis
+- Portabilidade -> O aplicativo poderá ser utilizado em diversos dispositivos móveis.
 
 <br><br>
 ## Diagrama de Caso de Uso:
@@ -22,7 +22,7 @@
 
 <br><br>
 ## Diagrama de Classe:
-![Screenshot](aa.png)</br>
+![Screenshot](diagrama de classe.png)</br>
 
 <br>
 
