@@ -36,3 +36,7 @@
 <img src = "funcionario.png" widht = "220" height = "200">
 <img src = "funcionario1.png" widht = "500" height = "400"><img src = "funcionario2.png" widht = "200" height = "200">
 
+<br>
+
+### Pizza
+
