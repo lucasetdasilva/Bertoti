@@ -52,7 +52,7 @@ public class Teste {
         
         assertEquals(cliente.get(0), "Daiana");
         
-        Pizza p = new Pizza();
+        Pizza p = new Pizza("Mussarela","molho de tomate e queijo");
         
         p.ExcluirPizza("Mussarela");
         p.MostrarPizzas();
