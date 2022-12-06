@@ -43,8 +43,10 @@ public class Pizza {
     public void ExcluirPizza(String nome) {
         for (Pizza pizza : pizzas) {
             if (pizza.getNome().equals(nome)) {
-                pizzas.remove(nome);
+                pizzas.remove(pizza);
 
+            } else{
+                System.out.println("Não existe pizza com este nome");
             }
         }
     }
