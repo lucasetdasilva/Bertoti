@@ -45,3 +45,10 @@
 <br>
 
 ### Pedido
+<img src = "pedido.png" widht = "220" height = "200">
+<img src = "pedido1.png" widht = "500" height = "400"><img src = "pedido2.png" widht = "300" height = "300">
+
+<br>
+
+### Pizzaria
+
