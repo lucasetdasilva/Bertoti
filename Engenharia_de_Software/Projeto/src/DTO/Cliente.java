@@ -45,23 +45,23 @@ public class Cliente {
         return nome;
     }
 
-    public void setNome(String Nome) {
-        this.nome = Nome;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getEndereco() {
         return endereco;
     }
 
-    public void setEndereco(String Endereco) {
-        this.endereco = Endereco;
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 
-    public String getDataNascimento() {
+    public String getData() {
         return datanascimento;
     }
 
-    public void setDataNascimento(String DataNascimento) {
+    public void setData(String DataNascimento) {
         this.datanascimento = DataNascimento;
     }
 
@@ -69,8 +69,8 @@ public class Cliente {
         return listapedidos;
     }
 
-    public void setListaPedidos(List<Pedido> ListaPedidos) {
-        this.listapedidos = ListaPedidos;
+    public void setListaPedidos(List<Pedido> listapedidos) {
+        this.listapedidos = listapedidos;
     }
 
 }
