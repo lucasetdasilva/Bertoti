@@ -24,3 +24,10 @@
 ## Diagrama de Classe:
 ![Screenshot](aa.png)</br>
 
+<br>
+
+## Classes
+### Cliente
+<img src = "cliente.png" wight = "350" height = "300"><img src = "cliente1.png" wight = "350" height = "300"><img src = "cliente2.png" wight = "350" height = "300">
+<br>
+### Funcionário
