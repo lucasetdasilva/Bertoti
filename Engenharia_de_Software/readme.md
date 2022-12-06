@@ -22,7 +22,7 @@
 
 <br><br>
 ## Diagrama de Classe:
-![Screenshot](diagrama de classe.png)</br>
+![Screenshot](diagramadeclasse.png)</br>
 
 <br>
 
