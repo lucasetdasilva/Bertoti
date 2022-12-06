@@ -51,4 +51,7 @@
 <br>
 
 ### Pizzaria
+<img src = "pizzariaa.png" widht = "220" height = "200">
+<img src = "pizzariaa1.png" widht = "500" height = "400"><img src = "pizzariaa2.png" widht = "500" height = "400">
+
 
