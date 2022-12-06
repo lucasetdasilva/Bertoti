@@ -28,6 +28,11 @@
 
 ## Classes
 ### Cliente
-<img src = "cliente.png" wight = "350" height = "300"><img src = "cliente1.png" wight = "350" height = "300"><img src = "cliente2.png" wight = "350" height = "300">
+<img src = "cliente.png" widht = "350" height = "300"><img src = "cliente1.png" widht = "350" height = "300"><img src = "cliente2.png" widht = "350" height = "300">
+
 <br>
+
 ### Funcionário
+<img src = "funcionario.png" widht = "220" height = "200">
+<img src = "funcionario1.png" widht = "500" height = "400"><img src = "funcionario2.png" widht = "200" height = "200">
+
