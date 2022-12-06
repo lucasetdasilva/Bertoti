@@ -39,4 +39,9 @@
 <br>
 
 ### Pizza
+<img src = "pizzaa.png" widht = "220" height = "200">
+<img src = "pizzaa1.png" widht = "500" height = "400"><img src = "pizzaa2.png" widht = "300" height = "300">
 
+<br>
+
+### Pedido
