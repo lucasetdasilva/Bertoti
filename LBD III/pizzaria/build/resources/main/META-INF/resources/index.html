@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="utf-8">
+    <title>Pizzaria</title>
+	
+    
+	<script src="js/jquery.js"></script>
+	
+
+	<link href="css/bootstrap.min.css" rel=stylesheet>
+	
+	
+	<script>
+		$(document).ready(function(){
+			
+
+			$("#busca").click(function() {
+
+				var campoTexto = document.getElementById("nome-cliente");
+  				var nome = campoTexto.value;
+
+				var campoTexto2 = document.getElementById("cpf-cliente");
+  				var cpf = campoTexto2.value;
+				
+				var campoTexto3 = document.getElementById("endereco-cliente");
+  				var endereco = campoTexto3.value;
+  				
+  				var campoTexto4 = document.getElementById("data-cliente");
+  				var data = campoTexto4.value;
+					
+				$("#dadosPedido").empty();
+				$("#dadosCliente").empty();
+					
+				var url = "/pizzaria/"+ nome +"/" + cpf + "/" + endereco +"/" + data + "";
+				var url2 = "/pizzaria/"+ nome +"";
+
+				$.getJSON(url, function(data) {
+						
+						var itens = [];
+						
+						$.each(data, function(i){
+						
+							itens.push("<tr><td>"+ this.id +"</td><td>"+ this.data + "</td><td>" + this.quantidade + "</td><td>" + this.nomePizza +  "</td></tr>");
+						});
+									
+						$("#dadosPedido").append(itens);
+				});
+				
+				$.getJSON(url2, function(data) {
+						
+						var itenscli = [];
+						
+						$.each(data, function(i){
+						
+							itenscli.push("<tr><td>"+ this.nome +"</td><td>"+ this.cpf + "</td><td>" + this.endereco + "</td><td>" + this.datanascimento +  "</td></tr>");
+						});
+									
+						$("#dadosCliente").append(itenscli);
+				});
+
+			});
+
+		});
+
+</script>
+	
+	
+
+   
+  </head>
+
+
+  <body>
+		
+		<div class="container">
+		
+			<div class="row">
+        		<div class="col-lg-10">
+        		
+  		<div id="painelBusca">
+            					
+            <div class="form-group col-md-5">
+                <label>Nome do Cliente</label> 
+                <input type="text" id="nome-cliente" class="input-large form-control" placeholder="Digite o nome">
+                <br>			
+                <label>CPF do Cliente</label>
+        		<input type="text" id="cpf-cliente" class="input-large form-control" placeholder="Digite o cpf">
+        		<br>
+        		<label>Endereço do Cliente</label>
+        		<input type="text" id="endereco-cliente" class="input-large form-control" placeholder="Digite o endereço">
+        		<br>
+        		<label>Data de Nascimento do Cliente</label>
+        		<input type="text" id="data-cliente" class="input-large form-control" placeholder="Digite a data de nascimento">
+        		<br>
+        		<button id="busca" class="btn btn-primary col-md-offset-5">Buscar Pedidos</button>
+            </div>
+		
+		</div>
+		
+		
+		
+		<table class="table table-bordered"> 
+			<caption>Pedidos</caption>
+				<thead>
+					<tr> 
+						<th>ID do Pedido</th>
+						<th>Data do Pedido</th>
+						<th>Quantidade</th>
+						<th>Nome da Pizza</th> 
+					</tr> 
+				</thead> 
+				
+				<tbody id="dadosPedido"> 
+					
+				</tbody> 
+		</table>
+		<br>
+		
+		<table class="table table-bordered"> 
+			<caption>Clientes</caption>
+				<thead>
+					<tr> 
+						<th>Nome do Cliente</th>
+						<th>CPF do Cliente</th>
+						<th>Endereço do Cliente</th>
+						<th>Data de Nascimento do Cliente</th> 
+					</tr> 
+				</thead> 
+				
+				<tbody id="dadosCliente"> 
+					
+				</tbody> 
+		</table>
+		
+		
+		</div>
+	</div>
+</div>
+		
+  </body>
+  
+</html>
