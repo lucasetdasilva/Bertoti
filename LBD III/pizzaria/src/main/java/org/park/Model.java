@@ -12,14 +12,19 @@ public class Model {
 	
 	
 	public Model() {
-		addCliente(new Cliente("Lucas","11359240121","Rua X","03-02-2000"));
-		addCliente(new Cliente("Giuliano","234325676","Rua Y", "09-02-1976"));
-		addPedido(new Pedido(1,"09/07/2019",3,"Portuguesa", new Cliente("Giuliano","234325676","Rua Y", "09-02-1976")));
-		addPedido(new Pedido(3,"10/07/2019",5,"Chocolate",new Cliente("Lucas","11359240121","Rua X","03-02-2000")));
-		addPedido(new Pedido(3,"13/07/2019",2,"Portuguesa",new Cliente("Lucas","11359240121","Rua X","03-02-2000")));
-		addPedido(new Pedido(4,"10/07/2019",1,"Nutella", new Cliente("Giuliano","234325676","Rua Y", "09-02-1976")));
-		addPedido(new Pedido(5,"10/07/2019",1,"Marguerita", new Cliente("Giuliano","234325676","Rua Y", "09-02-1976")));
-		addPedido(new Pedido(6,"10/07/2019",1,"Gorgonzola", new Cliente("Giuliano","234325676","Rua Y", "09-02-1976")));
+		addCliente(new Cliente("Júlia","176.098.544-98","Rua das Flores","07-01-2003"));
+		addCliente(new Cliente("Lucas","456.007.864-22","Rua X","03-02-2004"));
+		addCliente(new Cliente("Giuliano","345.079.876-21","Rua Y", "09-02-1976"));
+		addCliente(new Cliente("Marcella","123.456.789-10","Rua Z","26-07-2004"));
+		addPedido(new Pedido(1,"09/10/2019",3,"Portuguesa", new Cliente("Giuliano","345.079.876-21","Rua Y", "09-02-1976")));
+		addPedido(new Pedido(2,"10/12/2019",5,"Chocolate",new Cliente("Lucas","456.007.864-22","Rua X","03-02-2004")));
+		addPedido(new Pedido(3,"13/05/2019",2,"Portuguesa",new Cliente("Lucas","456.007.864-22","Rua X","03-02-2004")));
+		addPedido(new Pedido(4,"14/02/2019",1,"Nutella", new Cliente("Giuliano","345.079.876-21","Rua Y", "09-02-1976")));
+		addPedido(new Pedido(5,"18/07/2019",1,"Frango com Catupiry", new Cliente("Giuliano","345.079.876-21","Rua Y", "09-02-1976")));
+		addPedido(new Pedido(6,"21/09/2019",1,"Marguerita", new Cliente("Giuliano","345.079.876-21","Rua Y", "09-02-1976")));
+		addPedido(new Pedido(7,"25/03/2019",2,"Peperonni", new Cliente("Marcella","123.456.789-10","Rua Z", "26-07-2004")));
+		addPedido(new Pedido(8,"27/08/2019",1,"Vegetariana",new Cliente("Júlia","176.098.544-98","Rua das Flores","07-01-2003")));
+		addPedido(new Pedido(9,"22/09/2019",3,"Queijo com Bancon",new Cliente("Júlia","176.098.544-98","Rua das Flores","07-01-2003")));
 	}
 	
 	public void addCliente(Cliente cliente) {
