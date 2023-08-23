@@ -1,6 +1,6 @@
 # Portfolio de API'S da graduação de Banco de Dados - Lucas Emanoel 
 <br>
-Breve explicação do porque do portfolio
+O portfólio serve para documentar todas as API's (Aprendizagem por Projeto Integrado), servindo para a apresentação do Trabalho de Graduação do curso de Banco de Dados.
 
 <hr></hr>
 <br>
@@ -34,3 +34,24 @@ Hoje em dia atuo como Analista de Testes na empresa Saipher ATC, que tem como ra
 ##### 3° Semestre • 2023-1
 
 Parceiro Acadêmico: DomRock
+<br>
+<img src= "Images/domrock.png" width="800" height="120">
+<br><br>
+
+O Sistema Gerenciador de Vendas é uma aplicação web voltada para o armazenamento e gerenciamento de vendas realizadas por vendedores. O intuito da aplicação é coletar os dados das vendas e transformar em valor de negócio por meio da geração de insights (gráficos), com isso deixando mais fácil de entender o que realmente está acontecendo com os dados.
+<br><br>
+O sistema também dispõe de um algoritmo que prevê quanto um vendedor precisa vender com base na quantidade planejada de vendas e o que realmente foi realizado.
+<br><br>
+
+### Tecnologias Utilizadas
+
+* __JavaScript:__ Linguagem de programação frontend;
+* __React:__ Framework do JavaScript;
+* __Java:__ Linguagem de programação backend;
+* __SpringBoot:__ Framework do Java para o mapeamento de tabelas do banco de dados;
+* __MySQL:__ SGBD utilizado para o armazenamento de dados;
+* __TypeScript:__ Framework do JavaScript; 
+* __Tailwind CSS:__ Linguagem de estilização da aplicação web.
+<br><br>  
+
+### Contribuições Pessoais
