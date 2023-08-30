@@ -1,7 +1,6 @@
 # Portfolio de API'S da graduação de Banco de Dados - Lucas Emanoel 
 <br>
-O portfólio serve para documentar todas as API's (Aprendizagem por Projeto Integrado), servindo para a apresentação do Trabalho de Graduação do curso de Banco de Dados.
-
+O portfólio tem como objetivo documentar todos os API's (Aprendizagem por Projeto Integrado) para fins educacionais além de servir como trabalho de graduação para a obtenção do diploma de tecnólogo em Banco de Dados exigido pela Faculdade de Tecnologia de São José dos Campos.
 <hr></hr>
 <br>
 
