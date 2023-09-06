@@ -42,7 +42,7 @@ O Sistema Gerenciador de Vendas é uma aplicação web voltada para o armazename
 O sistema também dispõe de um algoritmo que prevê quanto um vendedor precisa vender com base na quantidade planejada de vendas e o que realmente foi realizado.
 <br><br>
 
-### Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * __JavaScript:__ Linguagem de programação frontend;
 * __React:__ Framework do JavaScript;
@@ -53,4 +53,15 @@ O sistema também dispõe de um algoritmo que prevê quanto um vendedor precisa 
 * __Tailwind CSS:__ Linguagem de estilização da aplicação web.
 <br><br>  
 
-### Contribuições Pessoais
+## Contribuições Pessoais
+
+### Mapeamento de Tabelas
+### Criação de rotas REST
+### Modelagem do Banco de Dados
+
+<br>
+<hr></hr>
+
+## Aprendizados 
+
+
