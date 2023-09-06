@@ -58,6 +58,7 @@ O sistema também dispõe de um algoritmo que prevê quanto um vendedor precisa 
 ### Mapeamento de Tabelas
 ### Criação de rotas REST
 ### Modelagem do Banco de Dados
+### Cadastro do Planejamento de Vendas
 
 <br>
 <hr></hr>
