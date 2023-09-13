@@ -13,6 +13,8 @@ Link dos projetos de API
 
 ## Sobre mim
 
+<p align="center"><img src= "Images/fotominha.png" width="420" height="300"></p>
+
 Me chamo Lucas Emanoel Teixeira Engracio da Silva, tenho 19 anos. Sou técnico em Desenvolvimento de Sistemas pela Etec Profa.
 Ilza Nascimento Pintusa - SJC e atualmente estou matriculado no 4° Semestre do curso tecnólogo em Banco de Dados na FATEC de 
 São José dos Campos.
