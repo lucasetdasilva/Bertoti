@@ -67,6 +67,9 @@ O sistema também dispõe de um algoritmo que prevê quanto um vendedor precisa 
 </details>
 
 ### Criação de rotas REST
+<p>As rotas REST fazem parte de uma arquitetura de software que tem como objetivo abrir uma comunicação para transmitir dados entre as tecnologias da aplicação.</p>
+
+
 ### Modelagem do Banco de Dados
 <p>Todo sistema por mais simples que aparenta ser, necessita de um banco de dados para que as informações relevantes que percorrem a aplicação não sejam perdidas.</p>
 
