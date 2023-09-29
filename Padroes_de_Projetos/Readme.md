@@ -3,3 +3,4 @@
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Strategy  | Herança  | | Duplicação de código | |
 | Observer  | Content Cell  | | | |
+| Composite  | Content Cell  | | | |
