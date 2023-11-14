@@ -7,4 +7,4 @@
 <br>
 
 ## Diagrama UML
-<img src = "" width = "200" height = "200">
+<img src = "Images/observer.png" width = "200" height = "200">
