@@ -1,4 +1,4 @@
-<h1 align = "center"> Padrões de Projetos - Lucas Emanoel</h1>
+<h1 align = "center"> Padrões de Projetos</h1>
 <br>
 
 | Nome do Padrão  | Anti Padrão | Definição | Problema que resolve | Exemplo de Aplicação no Java |
