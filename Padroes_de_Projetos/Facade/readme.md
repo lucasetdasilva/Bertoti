@@ -2,7 +2,7 @@
 <br>
 
 ## O que é o Facade?
-<p>O Facade é um padrão de projeto fornece uma interface unificada simplificada para um conjunto de interfaces em um subsistema.</p>
+<p>O Facade é um padrão de projeto que fornece uma interface unificada simplificada para um conjunto de interfaces em um subsistema.</p>
 <br>
 
 ## Diagrama UML
