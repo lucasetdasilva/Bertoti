@@ -2,7 +2,7 @@
 <br>
 
 ## O que é o Observer?
-<p> O padrão de projeto Observer estabelece uma dependência um-para-muitos entre objetos, permitindo que um objeto, chamado sujeito, notifique automaticamente todos os seus observadores sobre mudanças de estado</p>
+<p> O padrão de projeto Observer estabelece uma dependência um-para-muitos entre objetos, permitindo que um objeto, chamado sujeito, notifique automaticamente todos os seus observadores sobre mudanças de estado.</p>
 
 <br>
 
