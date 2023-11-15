@@ -6,4 +6,4 @@
 <br>
 
 ## Diagrama UML
-<!--<img src = "Image/singleton.png" widht = "300" height = "300">-->
+<img src = "Image/singleton.png" widht = "300" height = "300">
