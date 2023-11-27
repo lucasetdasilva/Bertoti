@@ -62,7 +62,7 @@ O sistema também dispõe de um algoritmo que prevê quanto um vendedor precisa 
 
 <details>
 <summary><h4>Mais sobre mapeamento de tabelas</h4></summary>
-<p> O mapeamento de tabelas é um conceito em que associamos classes Java a tabelas de um banco de dados relacional. </p>
+<p> O mapeamento de tabelas é um conceito em que associamos classes Java a tabelas de um banco de dados relacional. O mesmo tem como principal objetivo trazer visibilidade dos dados armazenados dentro do banco de dados para o usuário final da aplicação.  </p>
 </details>
 
 
