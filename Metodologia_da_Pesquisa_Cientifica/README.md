@@ -66,6 +66,7 @@ O sistema também dispõe de um algoritmo que prevê quanto um vendedor precisa 
  <p>No projeto de API</p>
 
 <h3 align="center">Exemplo de Mapeamento utilizado no projeto - Classe Produto</h3>
+
  ```java
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Entity
