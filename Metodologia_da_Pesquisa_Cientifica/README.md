@@ -62,12 +62,28 @@ O sistema também dispõe de um algoritmo que prevê quanto um vendedor precisa 
 
 <details>
 <summary><h4>Mais sobre mapeamento de tabelas</h4></summary>
-<p> O mapeamento de tabelas é um conceito em que associamos classes Java a tabelas de um banco de dados relacional. O mesmo tem como principal objetivo trazer visibilidade dos dados armazenados dentro do banco de dados para o usuário final da aplicação. A linguagem back-end Java transforma tabelas em classes por meio da anotação "@entity" e "@Table(name = "nome_da_tabela_no_banco_de_dados")" que pertencem ao JPA, que tem como objetivo persistir os dados na aplicação. </p>
- <p>No projeto de API</p>
+<p> O mapeamento de tabelas é um conceito em que associamos classes Java a tabelas de um banco de dados relacional. O mesmo tem como principal objetivo trazer visibilidade dos dados armazenados dentro do banco de dados para o usuário final da aplicação. O mapeamento utiliza uma especificação do Java chamada JPA(Java Persistence API) que tem como função persistir os dados na aplicação, para utilizá-la precisamos criar anotações. A linguagem back-end Java transforma tabelas em classes por meio da anotação "@entity" e "@Table(name = "nome_da_tabela_no_banco_de_dados")". </p>
+ <p>Para transformar colunas do banco de dados em atributos do Java, precisamos utilizar a anotação "@Column(name = "nome_da_coluna_no_banco_de_dados)", também podemos utilizar a anotação "@Id" que serve para declarar a chave primária da tabela. Outra anotação muito importante é a "@GeneratedValue(strategy = GenerationType.IDENTITY)", ela deve ser utilizada quando a chave primária é auto incrementada, ou seja, quando criamos um registro, a chave primária é preenchida automaticamente.</p>
+ 
 
 <h3 align="center">Exemplo de Mapeamento utilizado no projeto - Classe Produto</h3>
 
  ```java
+package com.main.api.model;
+
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+import lombok.Getter;
+import lombok.Setter;
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Entity
 @Getter
