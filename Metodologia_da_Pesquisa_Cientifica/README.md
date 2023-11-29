@@ -62,7 +62,34 @@ O sistema também dispõe de um algoritmo que prevê quanto um vendedor precisa 
 
 <details>
 <summary><h4>Mais sobre mapeamento de tabelas</h4></summary>
-<p> O mapeamento de tabelas é um conceito em que associamos classes Java a tabelas de um banco de dados relacional. O mesmo tem como principal objetivo trazer visibilidade dos dados armazenados dentro do banco de dados para o usuário final da aplicação.  </p>
+<p> O mapeamento de tabelas é um conceito em que associamos classes Java a tabelas de um banco de dados relacional. O mesmo tem como principal objetivo trazer visibilidade dos dados armazenados dentro do banco de dados para o usuário final da aplicação. A linguagem back-end Java transforma tabelas em classes por meio da anotação "@entity" e "@Table(name = "nome_da_tabela_no_banco_de_dados")" que pertencem ao JPA, que tem como objetivo persistir os dados na aplicação. </p>
+ <p>No projeto de API</p>
+
+<h3 align="center">Exemplo de Mapeamento utilizado no projeto - Classe Produto</h3>
+ ```java
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+@Entity
+@Getter
+@Setter
+@Table(name = "produto")
+public class Produto {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name= "id")
+	private Long id;
+	
+	@Column(name = "nome")
+	private String nome;
+	
+	@Column(name = "valor")
+	private double valor;
+	
+	@OneToMany(mappedBy = "fk_sku_venda")
+	private List<Venda> vendas;
+	
+}
+```
 </details>
 
 
