@@ -120,7 +120,6 @@ public class Produto {
 
 <details>
 <summary><h4>Mais sobre mapeamento rotas REST</h4></summary>
-
 <p></p>
 
 
@@ -148,15 +147,16 @@ public class Produto {
 <p align="center"> <img src= "Images/der.png" width="450" height="300"></p>
 </details>
 
-### Cadastro do Planejamento de Vendas
+### Atualização Planejamento de Vendas
 
 <p>Quando um vendedor acessa a aplicação, uma das funções que ele pode realizar é o planejamento de suas vendas. Essa função se faz necessária para o entendimento das vendas de um determinado vendedor, pois o mesmo poderá compreender se está lucrando mais ou menos durante um determinado período de tempo. </p>
+
 <details>
-<summary><h4>Mais sobre planejamento de vendas</h4></summary>
+<summary><h4>Mais sobre atualização de vendas</h4></summary>
+<p>Uma das principais responsabilidades que um vendedor tem durante sua jornada na aplicação é o planejamento de vendas. Na aplicação um vendedor pode cadastrar um planejamento de suas vendas, ou seja, quanto ele acha que irá vender em um período de três meses para frente. Para realizar o cadastro é preciso ter mapeado as tabelas relacionadas as vendas, depois disso é necessário a construção da  classe Controller (rotas REST) e a interface Repository (Queries). Na classe Controller deve ser criado um método de cadastro do planejamento de vendas. Por meio da URL passada pelo método é possível obter as informações e gravá-las dentro do banco de dados. Para que isso se concretize é necessário também utilizar a anotação "@PostMpping" responsável por cadastrar objetos no banco de dados. </p>
+<p>Para cada mês que passar o vendedor terá que atualizar o planejamento, adicionando o que realmente foi vendido em um determinado mês. Para isso deve ser criado na classe Controller um método de atualização, por meio da anotação "@PutMapping". O método substitui aquilo que foi cadastrado antes tendo que passar a chave primária da tabela para ser realizado a atualização. Com o cadastro e a atualização do planejamento de vendas de um determinado vendedor, é gerado um dashboard em que é mostrado três linhas: um para o planejamento de vendas, um para o que realmente foi vendido e uma para a predição. Com este dashboard o vendedor poderá entender em qual situação ele se encontra e conseguirá tomar as melhores decisões para o seu negócio.</p>
 
-
-
-<h3 align="center">Exemplo de Mapeamento utilizado no projeto - Classe Produto</h3>
+<h3 align="center">Exemplo de método - Cadastro do planejamento de vendas</h3>
 
  ```java
 
