@@ -1,4 +1,4 @@
-# Portfolio de API'S da graduação de Banco de Dados - Lucas Emanoel 
+# Portfólio de API'S da graduação de Banco de Dados - Lucas Emanoel 
 <br>
 O portfólio tem como objetivo documentar todos os API's (Aprendizagem por Projeto Integrado) para fins educacionais além de servir como trabalho de graduação para a obtenção do diploma de tecnólogo em Banco de Dados proposto pela Faculdade de Tecnologia de São José dos Campos.
 <hr></hr>
@@ -9,7 +9,9 @@ O portfólio tem como objetivo documentar todos os API's (Aprendizagem por Proje
 [Sobre mim](#sobre-mim)
 <br>
 ### Link dos projetos de API
-[Sistema Gerenciador de Vendas](#sistema-gerenciador-de-vendas)
+
+#### API 4º Semestre: [Sistema Gerenciador de Vendas](#sistema-gerenciador-de-vendas)
+
 <br>
 <hr></hr>
 <br>
@@ -61,15 +63,14 @@ O sistema também dispõe de um algoritmo que prevê quanto um vendedor precisa 
 ## Contribuições Pessoais
 
 ### Mapeamento de Tabelas
-<p>Para que a linguagem de programação Java possa interpretar o Banco de Dados foi necessário realizar o mapeamento das tabelas.</p>
+<p>Para que a linguagem de programação Java possa interpretar as informações armazenadas dentro de um Banco de Dados foi necessário realizar o mapeamento das tabelas da aplicação.</p>
 
 <details>
 <summary><h4>Mais sobre mapeamento de tabelas</h4></summary>
-<p> O mapeamento de tabelas é um conceito em que associamos classes Java a tabelas de um banco de dados relacional. O mesmo tem como principal objetivo trazer visibilidade dos dados armazenados dentro do banco de dados para o usuário final da aplicação. O mapeamento utiliza uma especificação do Java chamada JPA(Java Persistence API) que tem como função persistir os dados na aplicação, para utilizá-la precisamos criar anotações. A linguagem back-end Java transforma tabelas em classes por meio da anotação "@entity" e "@Table(name = "nome_da_tabela_no_banco_de_dados")". </p>
- <p>Para transformar colunas do banco de dados em atributos do Java, precisamos utilizar a anotação "@Column(name = "nome_da_coluna_no_banco_de_dados)", também podemos utilizar a anotação "@Id" que serve para declarar a chave primária da tabela. Outra anotação muito importante é a "@GeneratedValue(strategy = GenerationType.IDENTITY)", ela deve ser utilizada quando a chave primária é auto incrementada, ou seja, quando criamos um registro, a chave primária é preenchida automaticamente.</p>
+<p> O mapeamento de tabelas é um conceito em que associamos classes Java a tabelas de um banco de dados relacional. O mesmo tem como objetivo trazer visibilidade dos dados armazenados dentro do banco de dados para o usuário final da aplicação, com o intuito de realizar consultas, atualizações, criações ou deleções (CRUD). O mapeamento utiliza uma especificação do Java chamada JPA(Java Persistence API) que tem como função persistir os dados na aplicação, para utilizá-la precisamos criar anotações. A linguagem back-end Java transforma tabelas em classes por meio da anotação "@entity" e "@Table(name = "nome_da_tabela_no_banco_de_dados")". </p>
+ <p>Para transformar colunas do banco de dados em atributos do Java, precisamos utilizar a anotação "@Column(name = "nome_da_coluna_no_banco_de_dados)", também podemos utilizar a anotação "@Id" que serve para declarar a chave primária de uma tabela. Outra anotação muito importante é a "@GeneratedValue(strategy = GenerationType.IDENTITY)", ela deve ser utilizada quando a chave primária é auto incrementada, ou seja, quando criamos um registro a chave primária é preenchida automaticamente.</p>
  
-
-<h3 align="center">Exemplo de Mapeamento utilizado no projeto - Classe Produto</h3>
+<h3 align="center">Exemplo de aapeamento de tabela utilizado no projeto - Classe Produto</h3>
 
  ```java
 package com.main.api.model;
@@ -115,7 +116,7 @@ public class Produto {
 
 
 ### Criação de rotas REST
-<p>As rotas REST fazem parte de uma arquitetura de software que tem como objetivo abrir uma comunicação para transmitir dados entre as tecnologias da aplicação.</p>
+<p>A arquitetura REST é um estilo arquitetural que fornece diretrizes para o design e interação de sistemas distribuídos na web.</p>
 
 <details>
 <summary><h4>Mais sobre mapeamento rotas REST</h4></summary>
@@ -123,7 +124,7 @@ public class Produto {
 <p></p>
 
 
-<h3 align="center">Exemplo de Mapeamento utilizado no projeto - Classe Produto</h3>
+<h3 align="center">Exemplo de uma rota REST - </h3>
 
  ```java
 
@@ -149,6 +150,7 @@ public class Produto {
 
 ### Cadastro do Planejamento de Vendas
 
+<p>Quando um vendedor acessa a aplicação, uma das funções que ele pode realizar é o planejamento de suas vendas. Essa função se faz necessária para o entendimento das vendas de um determinado vendedor, pois o mesmo poderá compreender se está lucrando mais ou menos durante um determinado período de tempo. </p>
 <details>
 <summary><h4>Mais sobre planejamento de vendas</h4></summary>
 
