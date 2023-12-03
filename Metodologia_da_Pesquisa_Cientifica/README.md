@@ -188,4 +188,20 @@ public class Produto {
 
 ## Aprendizados 
 
+Como Scrum Master da minha equipe pude entender como deve ser realizado a organização de uma equipe, sempre conversando com os demais membros para entender suas necessidades em relação ao desenvolvimento do projeto, ou seja, tive que observar se as tarefas estavam sendo realizadas como o esperado, se os membros da equipe estavam com impedimentos externos ou internos e como poderia amenizar a situação. Ser Scrum Master mostrou para mim que a comunicação é a chave para se construir confiança uns com os outros, pois o ponto que todos estão em sincronia o projeto e consequentemente o produto final teram uma qualidade superior ao esperado pelo cliente.
+Como desenvolvedor pude aprimorar meus conhecimentos em modelagem de dados, além de estudar e aplicar os conhecimentos que adquiri com o framework SpringBoot, para o desenvolvimento do back-end da aplicação. 
 
+### - Hard Skills:
+Criação de rota REST (método PUT)
+<br>
+Desenvolvimento Back-end utilizando o framework SpringBoot, pertencente a linguagem Java
+<br>
+Modelagem de Banco de Dados
+<br>
+
+### - Soft Skills:
+Comunicação
+<br>
+Organização
+<br>
+Inteligência Emocional
